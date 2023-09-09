@@ -127,3 +127,27 @@ sup{
 #closebar:hover{
     transform: rotate(20deg);
 }
+/* Media query */
+
+@media (max-width: 1200px) {
+    #calculator{
+        width:60%
+    }
+  }
+
+  @media (max-width: 700px) {
+    #calculator{
+        width:80%
+    }
+  }
+
+  @media (max-width: 600px) {
+    #calculator{
+        width:95%
+    }
+    .element{
+        width: 70px;
+        height: 40px;
+        margin: 2px;
+    }
+  }
