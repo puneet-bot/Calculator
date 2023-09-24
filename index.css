@@ -1,7 +1,6 @@
 body{
     background-color: black;
     color: white;
-    overflow: hidden;
 }
 #cal{
     text-align: center;
@@ -143,11 +142,12 @@ sup{
 
   @media (max-width: 600px) {
     #calculator{
-        width:95%
+        width:95%;
+        height:95%;
     }
     .element{
         width: 70px;
-        height: 40px;
-        margin: 2px;
+        height: 50px;
+        margin: 5px;
     }
   }
